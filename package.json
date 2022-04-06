@@ -1,0 +1,39 @@
+{
+  "name": "unsplash-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 3000",
+    "test": "jest --silent"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "flickity": "^2.2.2",
+    "lodash.chunk": "^4.2.0",
+    "lodash.get": "^4.4.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-flickity-component": "^3.6.2",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@testing-library/user-event": "^14.0.4",
+    "@vitejs/plugin-react": "^1.0.7",
+    "dotenv": "^16.0.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "vite": "^2.9.0",
+    "vite-plugin-environment": "^1.1.0",
+    "vite-plugin-svgr": "^1.1.0"
+  }
+}
